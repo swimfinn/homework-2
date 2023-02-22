@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-image: url("https://cdna.artstation.com/p/assets/images/images/022/904/202/medium/joe-oscroft-backgroundnight-lit.jpg?1577185258");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .batman {
+      margin: 40px;
+      margin-left: 400px;
+      width: 300px;
+      transition: all 1050ms ease-in-out;
+    }
+    .batman:hover {
+      transform: rotate(720deg) scale(10);
+    }
+
+    .bat-signal {
+      width: 150px;
+      position: relative;
+      top: 450px;
+      right: -150px;
+      transition: all 2000ms ease-in-out;
+    }
+    .bat-signal:hover {
+      transform: scale(5);
+    }
+
+    .superman {
+      width: 250px;
+      position: relative;
+      right: -900px;
+      transition: all 2000ms ease-in-out;
+    }
+
+    .superman:hover {
+      transform: scale(3) translate(-400px, -200px);
+    }
+
+    .green-goblin {
+      width: 150px;
+      transition: all 2000ms ease-in-out;
+      box-shadow: 5px, 5px, 5px, 5px rgba(0, 0, 0, 0.9);
+    }
+
+    .green-goblin:hover {
+      transform: scale(5) matrix(0, 1, 1, 0, 0, 0) translate(-0px, -200px);
+    }
+
+    .catwoman {
+      width: 150px;
+      transition: all 2000ms ease-in-out;
+      position: relative;
+      top: 340px;
+    }
+
+    .catwoman:hover {
+      transform: scale(3) translateY(-10in);
+    }
+  </style>
+  <body>
+    <img class="batman" src="./src/batman.png" alt="batman" />
+    <img class="bat-signal" src="./src/bat-signal.png" alt="bat-signal" />
+    <img class="superman" src="./src/superman.png" alt="superman" />
+    <img class="green-goblin" src="./src/green-goblin.png" alt="green-goblin" />
+    <img class="catwoman" src="./src/catwoman.png" alt="catwoman" />
+  </body>
+</html>
